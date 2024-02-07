@@ -1,0 +1,25 @@
+//Wytłumacz jak działa arraylist, linkedlist, hashset, treeset, hashmap, treemap, fifo, lifo
+
+// arraylist działa na zasadzie spójnego elementu zawierającego początkowo pustą tablicę 10 znaków.
+//podczas zapełnienia tej listy, tworzy się nowa lista, zwiększona o połowę pierwotnej, a następnie
+//wszystkie elementy są kopiowane do nowej.
+//kolejność listy jest zależna od dodania elementów do niej.
+
+// linkedlist działa na zasadzie node'ów, które posiadają informację o poprzednim i/lub następnym elemencie.
+//dzięki temu usunięcie elementu ze środka listy jest dużo prostsze.
+//niestety linkedlista jest "porozrzucana" po pamięci a żeby dotrzeć do np. środkowego elementu trzeba
+//przeiterować po całej liście.
+
+//hashset jest zbiorem, który umiejscawia elementy na podstawie hashcode obiektu, który jest poddawany operacji
+//%16 i wynikowo wrzucany do odpowiedniego miejsca. Jeśli kilka elementów ma docelowo te samo miejsce, są łączone
+//na podstawie node'ów.
+
+//treeset jest zbiorem i działa na zasadzie drzewa czerwono-czarnego, które uporządkowuje elementy po
+//lewej i prawej stronie.
+
+//hashmap to mapa, która na podstawie wyliczenia hashcodu z klucza, uporządkowuje wartość w buckecie.
+//Kiedy uzywa sie sety a kiedy listy?
+
+//fifo - first in first out - queue(pierwszy element wchodzący jest pierwszy obsłużony - jak kolejka w sklepie)
+//lifo - last in first out - stack(ostatni element wchodzący jest pierwszy obsłużony - stos ubrań)
+
